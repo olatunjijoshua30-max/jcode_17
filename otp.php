@@ -48,7 +48,7 @@
             <div class="container">
               <div class="row g-0 mt-5">
                 <div class="col-11 col-md-10 col-lg-9 mx-auto">
-                  <h1 class="text-13 text-white fw-600 mb-4">To keep connected with largest shop in the world.</h1>
+                  <h1 class="text-13 text-white fw-600 mb-4">We care about your account security.</h1>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@
       </div>
       <!-- Welcome Text End --> 
       
-      <!-- Login Form
+      <!-- OTP Form
       ========================= -->
       <div class="col-md-6 col-lg-5 d-flex flex-column align-items-center">
         <div class="container pt-4">
@@ -70,73 +70,35 @@
         <div class="container my-auto py-5">
           <div class="row g-0">
             <div class="col-11 col-md-10 col-lg-9 mx-auto">
-              <h3 class="text-12 mb-4">Sign In</h3>
-              <form id="loginForm" method="post">
-
-
-                    <?php
-                            include('db_com.php');
-                            $rand = rand(1000, 9999);
-                                error_reporting (E_ALL);
-                                if (isset ($_REQUEST["submit"])){
-                                    $email = $_REQUEST["email"];
-                                    $otp = $_REQUEST["otp"];
-                          
-
-                                    //inserting into table
-                                    $sql = "INSERT INTO otp (email, otp) VALUES ('$email','$otp')";
-
-                                    mysqli_query ($conn, $sql) or die (mysqli_error($conn)); 
-                                    $num = mysqli_insert_id($conn);
-                                    if (mysqli_affected_rows($conn)!=1){
-                                        $message = "error inserting record to database";
-                                    }
-
-  
-                                    echo "<script>alert('OTP sent to $email');
-                                          window.location.href='otp.php?email=$email'</script>";
-                                    
-
-                                 
-                                }
-                                
-                                
-
-                            ?>
-
-
-                            
-                <label class="form-label fw-500" for="emailAddress">Email Address</label>
-                <div class="mb-3 icon-group icon-group-end">
-                  <input type="email" name="email" class="form-control bg-light border-light" id="emailAddress" required="" placeholder="Email or Username">
-                  <span class="icon-inside text-muted"><i class="fas fa-envelope"></i></span>
-
-                  <input type="hidden" name="otp" value="<?php echo $rand ?>" class="form-control" required placeholder="otp">
-				<!-- </div>
-                <label class="form-label fw-500" for="loginPassword">Password</label>
-                <div class="mb-3 icon-group icon-group-end">
-                  <input type="password" class="form-control form-control-lg bg-light border-light" id="loginPassword" required="" placeholder="Password">
-                  <span class="icon-inside text-muted"><i class="fas fa-lock"></i></span>
-				</div> -->
-                <!-- <div class="row my-4">
+              <h3 class="text-12 mb-4">Verify OTP</h3>
+              <p class="mb-4 text-muted">Enter the verification code we sent to <span class="text-dark text-3">+1*******179</span></p>
+              <p><img class="img-fluid" src="images/otp-icon.png" alt="verification"></p>
+              <form id="otp-screen" method="post">
+                <label class="form-label fw-500">Enter 4 digit code </label>
+                <div class="row g-3">
                   <div class="col">
-                    <div class="form-check">
-                      <input id="remember-me" name="remember" class="form-check-input" type="checkbox">
-                      <label class="form-check-label" for="remember-me">Remember Me</label>
-                    </div>
+                    <input type="text" class="form-control bg-light border-light text-center text-6 py-2" maxlength="1" required="" autocomplete="off">
                   </div>
-                  <div class="col text-end"><a href="forgot-password-18.html">Forgot Password ?</a></div>
-                </div> -->
-                 <div class="d-grid my-4">
-                  <button class="btn btn-dark btn-lg" name="submit" type="submit">Sign Up</button>
+                  <div class="col">
+                    <input type="text" class="form-control bg-light border-light text-center text-6 py-2" maxlength="1" required="" autocomplete="off">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control bg-light border-light text-center text-6 py-2" maxlength="1" required="" autocomplete="off">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control bg-light border-light text-center text-6 py-2" maxlength="1" required="" autocomplete="off">
+                  </div>
                 </div>
-                <!-- <p class="text-2 text-muted text-center">Not a member? <a href="register-18.html">Sign Up now</a></p> -->
+                <div class="d-grid my-4">
+                  <button class="btn btn-dark btn-lg" type="submit">Verify</button>
+                </div>
               </form>
+              <p class="text-2 text-muted text-center">Not received your code? <a href="#">Resend</a></p>
             </div>
           </div>
         </div>
       </div>
-      <!-- Login Form End --> 
+      <!-- OTP Form End --> 
       
     </div>
   </div>
