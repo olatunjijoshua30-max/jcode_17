@@ -1,5 +1,5 @@
 <?php
-     $conn = new mysqli ("localhost", "wetinde3_jcodeus", "@jcode2026", "wetinde3_jcodedb");
+     $conn = new mysqli ("localhost", "jcode_user", "jcode2026", "jcode_db");
  
  if (mysqli_connect_errno()){
     printf ("connect failed: %s\n", mysqli_connect_error());
