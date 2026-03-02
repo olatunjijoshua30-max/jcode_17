@@ -1,0 +1,235 @@
+.me{
+    height: 635px;
+    width: 1353px;
+    background-color: #000000;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.her{
+    width: 1353px;
+    height: 80px;
+    background-color: blue;
+}
+.she{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+}
+.pe{
+    background-image: url(fbicon.png);
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 200px;
+}
+.cea{
+    position: absolute;
+    font-size: xx-large;
+    color: rgb(60, 132, 240);
+    margin-top: 450px;
+    margin-left: 30px;
+}
+.rea{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 60px;
+    color: white;
+    font-size: larger;
+}
+.nike{
+    height: 555px;
+    width: 533px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -450px;
+    margin-left: 820px;
+}
+.unt{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    color: white;
+}
+.ron{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 90px;
+    margin-left: 30px;
+    color: white;
+}
+#show{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 130px;
+    height: 25px;
+    width: 180px;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.bag{
+    font-size: 15px;
+    color: rgb(92, 91, 91);
+}
+#rizz{
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 130px;
+    height: 25px;
+    width: 180px;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.jab{
+    font-size: 15px;
+    color: rgb(92, 91, 91);  
+}
+#ned{
+    position: absolute;
+    margin-left: 30px;  
+    margin-top: 180px;
+    height: 25px;
+    width: 375px;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.gab{
+    font-size: 15px;
+    color: rgb(92, 91, 91);    
+}
+#ord{
+    position: absolute;
+    margin-left: 30px;  
+    margin-top: 225px;
+    height: 25px;
+    width: 375px;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;   
+}
+.der{
+    font-size: 15px;
+    color: rgb(92, 91, 91);      
+}
+.day{
+    position: absolute;
+    margin-left: 30px; 
+    margin-top: 290px;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ate{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-left: 30px; 
+    margin-top: 310px;    
+}
+.rth{
+    position: absolute;
+    margin-left: 200px; 
+    margin-top: 310px;  
+    font-size: small;
+    text-decoration: none;
+    color: rgb(2, 2, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ale{
+    position: absolute;
+    background-color: blue;
+    margin-left: 30px; 
+    margin-top: 365px; 
+}
+.bel{
+    position: absolute;
+    margin-left: 50px; 
+    margin-top: 365px;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    color: white;
+}
+#box{
+    position: absolute;
+    background-color: blue;
+    margin-left: 140px; 
+    margin-top: 365px;    
+}
+.ris{
+    position: absolute;
+    margin-left: 160px; 
+    margin-top: 365px;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+    color: white;  
+}
+.ing{
+    position: absolute;
+    margin-left: 30px; 
+    margin-top: 390px;  
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    color: rgb(59, 59, 59);
+}
+.lue{
+    position: absolute;
+    height: 35px;
+    width: 180px;
+    margin-left: 30px; 
+    margin-top: 460px;
+    color: white;
+    background-color: rgb(29, 179, 29);
+    border-radius: 5PX;
+    border: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bmit{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px; 
+    margin-top: 520px;
+}
+.ail{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ema{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 50px;   
+}
+.ssw{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+#abel{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 50px;       
+}
+.ogi{
+    position: absolute;
+    margin-left: 1285px;
+    margin-top: 51.5px;      
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(123, 123, 247);
+    border: none;
+}
+.rgo{
+    position: absolute;
+    color: rgb(3, 20, 70);
+    margin-left: 1200px;
+    margin-top: 20px;       
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
