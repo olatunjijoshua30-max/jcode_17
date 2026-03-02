@@ -1,0 +1,107 @@
+#main{
+    position: absolute;
+    background: linear-gradient(rgb(241, 174, 112), rgba(81, 81, 245, 0.945));
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+#second{
+    position: absolute;
+    background-color: white;
+    left: 32.5%;
+    top: 15%;
+    width: 40%;
+    height: 60%;
+    border-radius: 10px;
+
+    
+}
+#right{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    right: 0;
+    height: 100%;
+    width: 45%;
+    border-radius: 10px;
+    
+    
+}
+form{
+    justify-self: center;
+}
+#left{
+    background-image: url(img/ray-hennessy-xUUZcpQlqpM-unsplash.jpg);
+    height: 100%;
+    width: 55%;
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+#state{
+    position: absolute;
+    width: 71%;
+    background-color: rgba(49, 45, 45, 0.24);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+#check{
+    position: absolute;
+    width: 71%;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    height: 30px;
+}
+#dob{
+    position: absolute;
+    width: 69.5%;
+    background-color: rgba(49, 45, 45, 0.24);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+
+}
+legend{
+    background-color:  rgb(241, 174, 112);
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: whitesmoke;
+    border-radius: 17px;
+    text-align: center;
+    box-shadow: 2px 2px 5px  black;
+}
+#fullname{
+    background-color: rgba(49, 45, 45, 0.24);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
+#email{
+    background-color: rgba(49, 45, 45, 0.24);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
+#number{
+    background-color: rgba(49, 45, 45, 0.24);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
+#add{
+    background-color: rgba(49, 45, 45, 0.24);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
